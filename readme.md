@@ -1,4 +1,3 @@
-
 # Spotify-Clone: Your Personal Music Experience
 
 ---
