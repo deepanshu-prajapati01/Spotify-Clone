@@ -5,7 +5,9 @@
 Looking for a simple and fun way to learn web development? Want to create your own music player? Look no further!
 
 **Spotify-Clone** is a basic web development project designed to help beginners understand the fundamentals of HTML, CSS, and JavaScript. It's a simple Spotify clone that consists of 10 songs.
+
 This tutorial is given by **CodeWithHarry** 
+
 Tutorial Link: https://www.youtube.com/watch?v=ANzPM5-lwXc&t=0s
 
 
