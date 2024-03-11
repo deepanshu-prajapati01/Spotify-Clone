@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+
+
+
+    <!-- Down panel for songs -->
+    <div class="container">
+        <div class="SongsList">
+            <h1>My Songs</h1>
+            <div class="Songs-queue">
+
+
+                <!-- Songs list -->
+                <div class="SongItem">
+                    <img class="cover-image" alt="Cover Image">
+                    <span class="spaces-1">SONG NAME HERE</span>
+                    <span class="timestamp spaces-1 duration">SONG DURATION HERE</span>
+                    <span class="spaces-1"><i class="fa-solid fa-2x songItemPlay fa-circle-play" id="1"></i></span>
+                </div>
+                <!-- End the songs list -->
+
+                <!-- Songs list -->
+                <div class="SongItem">
+                    <img class="cover-image" alt="Cover Image">
+                    <span class="spaces-1">SONG NAME HERE</span>
+                    <span class="timestamp spaces-1 duration">SONG DURATION HERE</span>
+                    <span class="spaces-1"><i class="fa-solid fa-2x songItemPlay fa-circle-play" id="2"></i></span>
+                </div>
+                <!-- End the songs list -->
+
+                <!-- Songs list -->
+                <div class="SongItem">
+                    <img class="cover-image" alt="Cover Image">
+                    <span class="spaces-1">SONG NAME HERE</span>
+                    <span class="timestamp spaces-1 duration">SONG DURATION HERE</span>
+                    <span class="spaces-1"><i class="fa-solid fa-2x songItemPlay fa-circle-play" id="3"></i></span>
+                </div>
+                <!-- End the songs list -->
+
+                <!-- Songs list -->
+                <div class="SongItem">
+                    <img class="cover-image" alt="Cover Image">
+                    <span class="spaces-1">SONG NAME HERE</span>
+                    <span class="timestamp spaces-1 duration">SONG DURATION HERE</span>
+                    <span class="spaces-1"><i class="fa-solid fa-2x songItemPlay fa-circle-play" id="4"></i></span>
+                </div>
+                <!-- End the songs list -->
+
+                <!-- Songs list -->
+                <div class="SongItem">
+                    <img class="cover-image" alt="Cover Image">
+                    <span class="spaces-1">SONG NAME HERE</span>
+                    <span class="timestamp spaces-1 duration">SONG DURATION HERE</span>
+                    <span class="spaces-1"><i class="fa-solid fa-2x songItemPlay fa-circle-play" id="5"></i></span>
+                </div>
+                <!-- End the songs list -->
+
+                <!-- Songs list -->
+                <div class="SongItem">
+                    <img class="cover-image" alt="Cover Image">
+                    <span class="spaces-1">SONG NAME HERE</span>
+                    <span class="timestamp spaces-1 duration">SONG DURATION HERE</span>
+                    <span class="spaces-1"><i class="fa-solid fa-2x songItemPlay fa-circle-play" id="6"></i></span>
+                </div>
+                <!-- End the songs list -->
+
+                <!-- Songs list -->
+                <div class="SongItem">
+                    <img class="cover-image" alt="Cover Image">
+                    <span class="spaces-1">SONG NAME HERE</span>
+                    <span class="timestamp spaces-1 duration">SONG DURATION HERE</span>
+                    <span class="spaces-1"><i class="fa-solid fa-2x songItemPlay fa-circle-play" id="7"></i></span>
+                </div>
+                <!-- End the songs list -->
+
+                <!-- Songs list -->
+                <div class="SongItem">
+                    <img class="cover-image" alt="Cover Image">
+                    <span class="spaces-1">SONG NAME HERE</span>
+                    <span class="timestamp spaces-1 duration">SONG DURATION HERE</span>
+                    <span class="spaces-1"><i class="fa-solid fa-2x songItemPlay fa-circle-play" id="8"></i></span>
+                </div>
+                <!-- End the songs list -->
+
+                <!-- Songs list -->
+                <div class="SongItem">
+                    <img class="cover-image" alt="Cover Image">
+                    <span class="spaces-1">SONG NAME HERE</span>
+                    <span class="timestamp spaces-1 duration">SONG DURATION HERE</span>
+                    <span class="spaces-1"><i class="fa-solid fa-2x songItemPlay fa-circle-play" id="9"></i></span>
+                </div>
+                <!-- End the songs list -->
+
+                <!-- Songs list -->
+                <div class="SongItem">
+                    <img class="cover-image" alt="Cover Image">
+                    <span class="spaces-1">SONG NAME HERE</span>
+                    <span class="timestamp spaces-1 duration">SONG DURATION HERE</span>
+                    <span class="spaces-1"><i class="fa-solid fa-2x songItemPlay fa-circle-play" id="10"></i></span>
+                </div>
+                <!-- End the songs list -->
+
+
+
+
+
+
+
+            </div>
+        </div>
+        <div class="SongsBanner"></div>
+    </div>
+
+
+
+
+
+
+    <!-- Part for the progress bar. -->
+    <div class="bottom">
+
+        <!-- progress bar -->
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+
+
+
+        <!-- Fontsome icons -->
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step" id="previous-button"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next-button"></i>
+        </div>
+
+        <!-- Duration and total -->
+        <div class="duration-start">
+            0:00
+        </div>
+
+        <div class="duration-end">
+            00:00
+        </div>
+
+
+        <!-- Gif and song name -->
+        <div class="songInfo">
+            <span class="currentSong">
+                <!-- CURRENT PLAYING SONG HERE -->
+            </span>
+        </div>
+
+
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/843250c58c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+<!-- <script src="https://kit.fontawesome.com/843250c58c.js" crossorigin="anonymous"></script> -->
+
+</html>
